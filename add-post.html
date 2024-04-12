@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Added closing double quote here -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div id="branding">
+                <img src="images/logo.jpg" alt="ORANGE TECH">
+                <h1>Orange-Tech</h1>
+            </div>
+            <div id="main-nav">
+                <ul class="main-nav-1">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="single-post.html">Single-Post</a></li>
+                    <li><a href="add-post.html">Add Post</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="search-1">
+                <form class="search0">
+                    <input type="search" placeholder="search the blog...">
+                    <button><i class="fa-solid fa-magnifying-glass"></i> </button>
+                </form>
+            </div>
+            <div class="clearfix"></div> <!-- use to clear the float -->
+            <nav class="sub-menu">
+                <ul>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Azure</a></li>
+                    <li><a href="#">Graphic Designing</a></li>
+                    <li><a href="#">Software Development</a></li>
+                </ul>
+            </nav>
+            <div class="ad">
+                <img src="images/ad.jpg" alt="image-ad">
+            </div>
+        </aside>
+
+
+
+        <section class="content">
+            <div id="add-post">
+
+                <h1 class="add-post-text">Add Post</h1>
+                <form class="add-post">
+
+                    <label>Post Title</label> <input type="text" class="add-post-form">
+                    <label>Category</label>
+                    <select class="add-post-form">
+                        <option value="web development"> Web Development</option>
+                        <option value="Azure"> Azure</option>
+                        <option value="software development"> Software Development</option>
+                    </select>
+                    <label>body</label><textarea name="f" class="add-post-form" cols="30" rows="10"></textarea>
+                    <label> Select image</label><input type="file" class="add-post-form">
+
+                    <button type="submit" class="add-post-form">Add Post</button>
+
+
+
+                </form>
+            </div>
+
+        </section>
+
+        <div class="clearfix"></div>
+    </div> <!-- container -->
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="right-section">
+                <div class="nav">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Term & conditions </a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Azure</a></li>
+                        <li><a href="#">Graphic Designing</a></li>
+                        <li><a href="#">Software Development</a></li>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Azure</a></li>
+                        <li><a href="#">Graphic Designing</a></li>
+                        <li><a href="#">Software Development</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="left-section">
+                <p class="copy"> © 2020 Orange-Tech Pvt Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

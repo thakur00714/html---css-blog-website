@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sneaky Credit Card Skimmer Disguised as Harmless Facebook Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Added closing double quote here -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div id="branding">
+                <img src="images/logo.jpg" alt="ORANGE TECH">
+                <h1>Orange-Tech</h1>
+            </div>
+            <div id="main-nav">
+                <ul class="main-nav-1">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="single-post.html">Single-Post</a></li>
+                    <li><a href="add-post.html">Add Post</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="search-1">
+                <form class="search0">
+                    <input type="search" placeholder="search the blog...">
+                    <button><i class="fa-solid fa-magnifying-glass"></i> </button>
+                </form>
+            </div>
+            <div class="clearfix"></div> <!-- use to clear the float -->
+            <nav class="sub-menu">
+                <ul>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Azure</a></li>
+                    <li><a href="#">Graphic Designing</a></li>
+                    <li><a href="#">Software Development</a></li>
+                </ul>
+            </nav>
+            <div class="ad">
+                <img src="images/ad.jpg" alt="image-ad">
+            </div>
+        </aside>
+
+
+
+        <section class="content">
+            <article>
+                <header class="article-header">
+                    <h2> Sneaky Credit Card Skimmer Disguised as Harmless Facebook Tracker</h2>
+                    <div class="meta">
+                        posted by <strong> Mohit Thakur 2 Days Ago </strong> <span class="cmt"><em> (5
+                                comments)</em></span>
+                    </div>
+                </header>
+                <img src="images/credit-card-hacking.jpg" alt="credit-card-hacking">
+                <p>
+                    Cybersecurity researchers have discovered a credit card skimmer that's concealed within a fake Meta
+                    Pixel tracker script in an attempt to evade detection.
+
+                    Sucuri said that the malware is injected into websites through tools that allow for custom code,
+                    such as WordPress plugins like Simple Custom CSS and JS or the "Miscellaneous Scripts" section of
+                    the Magento admin panel.<br><br>
+
+                    "Custom script editors are popular with bad actors because they allow for external third party (and
+                    malicious) JavaScript and can easily pretend to be benign by leveraging naming conventions that
+                    match popular scripts like Google Analytics or libraries like JQuery," security researcher Matt
+                    Morrow said.<br><br>
+
+                    The bogus Meta Pixel tracker script identified by the web security company contains similar elements
+                    as its legitimate counterpart, but a closer examination reveals the addition of JavaScript code that
+                    substitutes references to the domain "connect.facebook[.]net" with "b-connected[.]com."<br><br>
+                </p>
+                <P>
+
+                    While the former is a genuine domain linked to the Pixel tracking functionality, the replacement
+                    domain is used to load an additional malicious script ("fbevents.js") that monitors if a victim is
+                    on a checkout page, and if so, serves a fraudulent overlay to grab their credit card
+                    details.<br><br>
+
+                    It's worth noting that "b-connected[.]com" is a legitimate e-commerce website that has been
+                    compromised at some point to host the skimmer code. What's more, the information entered into the
+                    fake form is exfiltrated to another compromised site ("www.donjuguetes[.]es").<br><br>
+
+                    To mitigate such risks, it's recommended to keep the sites up-to-date, periodically review admin
+                    accounts to determine if all of them are valid, and update passwords on a frequent basis.
+
+                    This is particularly important as threat actors are known to leverage weak passwords and flaws in
+                    WordPress plugins to gain elevated access to a target site and add rogue admin users, which are then
+                    used to perform various other activities, including adding additional plugins and backdoors.<br><br>
+                </P>
+                <img src="images/script.webp" alt="script image">
+                <p>
+
+                    "Because credit card stealers often wait for keywords such as 'checkout' or 'onepage,' they may not
+                    become visible until the checkout page has loaded," Morrow said.<br> <br>
+
+                    "Since most checkout pages are dynamically generated based on cookie data and other variables passed
+                    to the page, these scripts evade public scanners and the only way to identify the malware is to
+                    check the page source or watch network traffic. These scripts run silently in the background."<br>
+                    <br>
+
+                    The development comes as Sucuri also revealed that sites built with WordPress and Magento are the
+                    target of another malware called Magento Shoplift. Earlier variants of Magento Shoplift have been
+                    detected in the wild since September 2023.<br> <br>
+
+
+                    The attack chain starts with injecting an obfuscated JavaScript snippet into a legitimate JavScript
+                    file that's responsible for loading a second script from jqueurystatics[.]com via WebSocket Secure
+                    (WSS), which, in turn, is designed to facilitate credit card skimming and data theft while
+                    masquerading as a Google Analytics script.<br> <br>
+
+                    "WordPress has become a massive player in e-commerce as well, thanks to the adoption of Woocommerce
+                    and other plugins that can easily turn a WordPress site into a fully-featured online store,"
+                    researcher Puja Srivastava said.<br> <br>
+
+                    "This popularity also makes WordPress stores a prime target — and attackers are modifying their
+                    MageCart e-commerce malware to target a wider range of CMS platforms."<br> <br>
+                </p>
+                <div class="footer-article">
+
+                    <h3> Recents Comments</h3>
+                    <div class="comments-section">
+                        <div class="avatar">
+                            <img src="images/avatar.webp" alt="avatar">
+
+                        </div>
+                        <div class="wrote">
+
+                            <p class="commentor-name"><strong>Bhavesh Kumar</strong> wrote:</p>
+                            <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Asperiores porro voluptatem vitae cupiditate assumenda suscipit?
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="comments-section">
+                        <div class="avatar">
+                            <img src="images/avatar.webp" alt="avatar">
+
+                        </div>
+                        <div class="wrote">
+                            <p class="commentor-name"><strong>Siddharth</strong> wrote:</p>
+                            <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Asperiores porro voluptatem vitae cupiditate assumenda suscipit?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div> <!-- use to clear the float -->
+
+                    <form class="f">
+
+                        <label>Name</label> <input type="name" class="f-2">
+                        <label>Email</label><input type="email" class="f-2">
+                        <label>comment</label><textarea name="" class="f-2" cols="30" rows="10"></textarea>
+                        <button type="submit" class="f-2">Submit</button>
+
+
+
+                    </form>
+
+
+
+
+
+
+
+                </div>
+            </article>
+
+
+
+
+    </div>
+
+    </section>
+    <div class="clearfix"></div>
+    </div> <!-- container -->
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="right-section">
+                <div class="nav">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Term & conditions </a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Azure</a></li>
+                        <li><a href="#">Graphic Designing</a></li>
+                        <li><a href="#">Software Development</a></li>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Azure</a></li>
+                        <li><a href="#">Graphic Designing</a></li>
+                        <li><a href="#">Software Development</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="left-section">
+                <p class="copy"> © 2020 Orange-Tech Pvt Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
